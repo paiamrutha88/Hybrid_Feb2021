@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="75482" started-at="2021-01-05T04:06:23Z" finished-at="2021-01-05T04:07:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="75482" started-at="2021-01-05T04:06:23Z" finished-at="2021-01-05T04:07:39Z">
+      <class name="com.test.TestProject.WebTable">
+        <test-method status="PASS" signature="webTableTest()[pri:0, instance:com.test.TestProject.WebTable@76508ed1]" name="webTableTest" duration-ms="75465" started-at="2021-01-05T04:06:23Z" finished-at="2021-01-05T04:07:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTableTest -->
+      </class> <!-- com.test.TestProject.WebTable -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

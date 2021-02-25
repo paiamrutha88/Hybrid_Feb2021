@@ -1,0 +1,49 @@
+ testdata: 
+   - testName: LoginTest
+     data:
+      - runmode: Y
+        browser: Chrome
+        email: abc@ccc.com0
+        password: caps12341
+      - runmode: N
+        browser: Mozilla
+        email: abc@ccc.com1
+        password: caps12342
+      - runmode: Y
+        browser: edge
+        email: abc@ccc.com2
+        password: caps12343
+        
+   - testName: PurchaseProductList
+     data:
+      - runmode: Y
+        browser: Chrome
+        productName: iphone10
+        mincost: 1500
+        maxcost: 10000 
+      - runmode: Y
+        browser: Chrome
+        productName: chromecast
+        mincost: 500
+        maxcost: 1000 
+      - runmode: N
+        browser: Chrome
+        productName: thinkpad
+        mincost: 500
+        maxcost: 1000 
+        
+   - testName: CartTest
+     data:
+      - runmode: Y
+        browser: Chrome
+        productName: iphone10
+        operation: remove
+      - runmode: Y
+        browser: edge
+        productName: kids frock
+        operation: add
+      - runmode: Y
+        browser: Chrome
+        productName: iphone10
+        operation: add  
+     
